@@ -117,9 +117,9 @@ int main()
     cout << "The Operator == : " << endl;
 
     if (P1 == P2)
-        cout << "Both rectangles is sliced ! ";
+        cout << "Both rectangles does overlap ! ";
     else
-        cout << "Both rectangles is not sliced ! : ";
+        cout << "Both rectangles does not overlap ! : ";
 
     cout << endl
          << endl;
