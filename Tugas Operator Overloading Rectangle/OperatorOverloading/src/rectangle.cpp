@@ -76,7 +76,7 @@ Persegi_Panjang Persegi_Panjang::operator-(const Persegi_Panjang& newdata)
         result.y_max = std::min(this->y_max, newdata.y_max);
     }
     else
-        std::cout << "The rectangle for Operator + does not overlap !";
+        std::cout << "The rectangle for Operator - does not overlap !";
     return result;
 }
 
